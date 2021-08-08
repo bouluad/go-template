@@ -1,0 +1,38 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "description": "API REST in Golang with Gin Framework",
+        "contact": {
+            "name": "BOULUAD Mohammed",
+            "url": "https://bouluad.com",
+            "email": "contact@bouluad.com"
+        },
+        "license": {
+            "name": "MIT"
+        },
+        "version": "1.0"
+    },
+    "basePath": "/",
+    "paths": {
+        "/api/healthcheck": {
+            "get": {
+                "produces": [
+                    "application/json"
+                ],
+                "summary": "Get server status",
+                "responses": {
+                    "200": {
+                        "description": ""
+                    }
+                }
+            }
+        }
+    },
+    "securityDefinitions": {
+        "ApiKeyAuth": {
+            "type": "apiKey",
+            "name": "Authorization",
+            "in": "header"
+        }
+    }
+}

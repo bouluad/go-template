@@ -1,0 +1,25 @@
+basePath: /
+info:
+  contact:
+    email: contact@bouluad.com
+    name: BOULUAD Mohammed
+    url: https://bouluad.com
+  description: API REST in Golang with Gin Framework
+  license:
+    name: MIT
+  version: "1.0"
+paths:
+  /api/healthcheck:
+    get:
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: ""
+      summary: Get server status
+securityDefinitions:
+  ApiKeyAuth:
+    in: header
+    name: Authorization
+    type: apiKey
+swagger: "2.0"

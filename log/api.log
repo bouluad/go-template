@@ -1,0 +1,11 @@
+[GIN-debug] POST   /api/login                --> github.com/go-template/internal/controllers.Login (4 handlers)
+[GIN-debug] GET    /docs/*any                --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/healthcheck          --> github.com/go-template/internal/controllers.Health (4 handlers)
+[GIN-debug] Listening and serving HTTP on :3000
+::1 - - [09/Aug/2021:00:10:08 +0200] "GET /docs/index.html HTTP/1.1 200 428.783µs " " Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" " "
+::1 - - [09/Aug/2021:00:10:08 +0200] "GET /docs/swagger-ui.css HTTP/1.1 200 252.226µs " " Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" " "
+::1 - - [09/Aug/2021:00:10:08 +0200] "GET /docs/swagger-ui-standalone-preset.js HTTP/1.1 200 413.982µs " " Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" " "
+::1 - - [09/Aug/2021:00:10:08 +0200] "GET /docs/swagger-ui-bundle.js HTTP/1.1 200 20.088772ms " " Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" " "
+::1 - - [09/Aug/2021:00:10:08 +0200] "GET /docs/doc.json HTTP/1.1 200 451.914µs " " Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" " "
+::1 - - [09/Aug/2021:00:10:08 +0200] "GET /docs/favicon-32x32.png HTTP/1.1 200 7.178678ms " " Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" " "
+::1 - - [09/Aug/2021:00:10:18 +0200] "GET /api/healthcheck HTTP/1.1 200 70.028µs " " Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" " "
